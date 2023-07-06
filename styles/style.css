@@ -3,10 +3,32 @@
     padding: 0;
 }
 .container{
-    max-width: 1220px;
     margin: 0 auto;
     padding: 0 100px;
 }
 body{
     font-family: 'Montserrat', sans-serif;
+}
+/* global css end here */
+.top_header{
+    background-color: #326639 !important;
+}
+.button_nav{
+    background: #326639;
+    color: #fff !important;
+    padding: 15px;
+    border: none;
+}
+.button_nav:hover{
+    border: 2px solid #fff;
+    
+}
+.button_nav a{
+    font-size: 16px  !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+    color: #fff;
+}
+.button_nav a:hover{
+    font-weight: 700 !important;
 }
